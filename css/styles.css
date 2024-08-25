@@ -1,0 +1,103 @@
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  background-color: rgb(255, 255, 255);
+}
+
+.nav-bar {
+  position: fixed;
+  background-color: black;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 40px;
+  width: 100%;
+  font-weight: bold;
+}
+.menu {
+  text-align: right;
+  margin-left: auto;
+  margin-right: 10px;
+}
+.kicks {
+  margin-left: 10px;
+}
+.main-img {
+  width: 55%;
+  margin-top: 60px;
+}
+.imagen-inicio {
+  width: 100%;
+  text-align: center;
+  border-radius: 10px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+}
+.padre {
+  display: flex;
+  gap: 38px;
+  justify-content: center;
+  position: relative;
+  margin-top: 15px;
+}
+.shoe-img {
+  width: 180px;
+  border-radius: 10px;
+}
+.sale-1 {
+  position: absolute;
+  top: 5px;
+  margin-left: 5px;
+  background-color: red;
+  border-radius: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-small;
+  color: white;
+}
+.card {
+  position: relative;
+}
+.precio {
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 80%;
+  background-color: black;
+  color: azure;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 10px;
+  font-size: small;
+  padding: 3px;
+}
+.model {
+  position: absolute;
+  top: 80%;
+  font-size: smaller;
+  margin-left: 10px;
+}
+.color {
+  position: absolute;
+  top: 90%;
+  font-size: smaller;
+  margin-left: 10px;
+}
+.box2 {
+  position: relative;
+}
+.box2 {
+  display: flex;
+  gap: 38px;
+  justify-content: center;
+  position: relative;
+  margin-top: 15px;
+  padding-bottom: 20px;
+}
+.footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
